@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Rubik+Mono+One&display=swap');
+
+html, body {
+  background: linear-gradient(60deg, #F5CE52, #DF8735);
+  background-size: cover;
+  width: 100%;
+  font-family: 'DM Sans', sans-serif;
+  position: relative;
+  min-height: 100%;
+}
+
+.navbar {
+  background: linear-gradient(60deg, #55c9ff, #54f3eb);
+  opacity: 1;
+  color: #fff;
+  box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+}
+
+.navbar:hover {
+  box-shadow: 0px 8px 10px -6px rgba(0,0,0,.5);
+}
+
+.navbar-brand, #banner > h2 {
+  font-family: 'Rubik Mono One', cursive;
+  font-size: 3.5em;
+  text-align: center;
+}
+
+#arena {
+  display: flex;
+  margin: 30px auto 30px auto;
+}
