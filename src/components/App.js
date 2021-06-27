@@ -141,14 +141,14 @@ function App() {
 
   const encash = () => {
     const selected = getSelectedNumbers(selectedNumbers);
-    if(selected.length === 5) {
+    if(selected.length === numberLimit) {
       const numberList = selected.map((numberObject) => {
         return numberObject.value;
       });
 
       alert(`Numbers selected: ${numberList.join(", ")}\n\nTotal amount attached: $ ${totalAmount}`);
     } else {
-      alert("Nothing to encash yet. Select 5 numbers and try again.");
+      alert(`Nothing to encash yet. Select ${numberLimit} numbers and try again.`);
     }
   };
 
